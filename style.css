@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(53, 50, 50);
+    margin: auto;
+}
+/*------HEADRE-----*/
+header{
+    height: 500px;
+    background-image: url("imagenes/fondo.jpg");
+    background-size: cover;
+}
+.contenedorHeader{
+   background-color: rgb(24, 24, 24);
+    height: 80px;
+   justify-content: space-between;
+    display: flex;
+}
+
+.titulo{
+    display: flex;
+}
+.titulo h1{
+    text-align: center;
+    margin: auto 30px;
+}
+ul{
+    display: flex;
+
+}
+div li{
+    width: auto;
+    list-style: none;
+    margin: auto 30px;
+}
+h4:hover{
+    color: rgb(86, 86, 156);
+}
+a:hover{
+    color: rgb(86, 86, 156);
+}
+/*------MAIN-----*/
+main{
+    height: 500px;
+}
+/*------FOOTER------*/
+footer{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    height: 300px;
+}
+.somos{
+    width: 50%;
+    margin: auto;
+}
+.somos *{
+    margin: 30px ;
+}
+.contactanos{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.contactanos *{
+    margin: 20px;
+}
+.iconos{
+    text-align: center;
+    margin: auto;
+
+}
